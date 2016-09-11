@@ -1,0 +1,46 @@
+
+
+caption{
+	font-size: 25px;
+}
+
+img{
+	float: left;
+}
+
+#equipos{
+	margin: 25px auto;
+	border: solid;
+	border-collapse: collapse;
+}
+
+#equipos td,th{
+	border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+#equipos th{
+	border-style: solid;
+  background-color: #BDBDBD;
+  color: black;
+}
+
+tr:nth-child(2n){
+	background-color: #FAFAFA;
+}
+
+tr:nth-child(2n+1){
+	background-color: #E0E0E0;
+}
+
+
+
+#equipos tr:hover{
+  background-color: #F8BBD0;
+}
+
+#posiciones #equipos td{
+	color: #424242;
+}
+

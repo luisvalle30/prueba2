@@ -1,0 +1,26 @@
+table{
+	border-collapse: collapse;
+	padding: 10%;
+	background-color: #ECEFF1;
+	margin-left: 30%;
+	font-family: 'Trebuchet MS';
+	margin-top: 3%;
+	margin-bottom: 15px;
+}
+
+tr{
+	border: #B0BEC5 5px solid;
+
+}
+
+tbody{
+	margin-top: 6px;
+
+}
+
+tr:hover{
+	transform: scale(1.2);
+	border: #B0BEC5 5px solid;
+	cursor: pointer;
+	background-color: #FFF176;
+}

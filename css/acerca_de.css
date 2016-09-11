@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+section{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: white;
+}
+
+table{
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+table tr td img{
+	max-width: 150px;
+	max-height: 200px;
+}
+
+table tr td{
+	width: 75px;
+}
+
+footer{
+	width: 100%;
+}

@@ -1,0 +1,186 @@
+
+
+
+#contenedor {
+	width: 85%;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #EEEEEE;
+	border: solid;
+	border-color: #BDBDBD;
+	
+}
+
+.h3{
+	text-align: justify;
+}
+.biografia {
+	text-align: justify;
+	padding-left: 175px;
+	width: 90%;
+}
+
+.barca{
+	float: left;
+	margin-top: 3px;
+	 
+}
+
+#jugadores {
+	background-color: #DDD;
+	width: 85%; 
+	height: 730px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+	-webkit-box-shadow: 2px 2px 3px 2px #888;
+    -moz-box-shadow: 2px 2px 3px 2px #888;
+    box-shadow:  2px 2px 3px 2px #888;
+    margin-left: 100px;
+}
+
+.jugador {
+	width: 100px; height: 150px;
+	margin: 12px;
+	border: solid 4px #FFFFFF;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	left: 10px; top: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.jugador h1 {
+	font-weight: bold;
+	font-size: .9em;
+	margin: 0px 0px .1em 0px;
+}
+
+.jugador h2 {
+	font-size: .8em;
+	font-weight: bold;
+	margin: 0px 0px .1em 0px;
+}
+
+.jugador p {
+	font-size: .7em;
+	text-decoration: none;
+	margin: 0px 0px .1em 0px;
+}
+
+.datos {
+	padding: 4px;
+	width: 100px;
+	height: 142px;
+	background-color: rgba(255, 255, 255, .7);
+	color: rgba(F255, 255, 255, .7);
+	position: absolute;
+	cursor: pointer;
+	bottom: -119px;
+	left: 0px;
+	font-size: 1em;
+}
+
+.datos img {
+	margin: 4px 0px 0px 0px;
+	-webkit-box-shadow: 2px 2px 3px 1px #888;
+    -moz-box-shadow: 2px 2px 3px 1px #888;
+    box-shadow: 2px 1px 3px 1px #888;
+}
+
+
+.futbol{
+	width: 60%;
+	height: 400px;
+	padding: 4px;
+	border: 2px black solid;
+	background-color: #757575;
+
+}
+
+
+#futbol{
+	width: 45%;
+	display: inline-block;
+}
+
+.futbol:hover{
+	opacity: 0.7;
+}
+
+.darcolor{
+	border: solid;
+	border-color: #BDBDBD;
+	box-shadow:  10px 10px 5px #888888;
+	font-family:   'Trebuchet MS';
+}
+
+
+h1{
+	font-family: cursive;
+}
+
+h2{
+		font-family:  'Trebuchet MS';
+		color: #424242;
+
+}
+
+h3{
+
+	font-family:  'Trebuchet MS';
+	color: #424242;
+	text-align: center;
+
+}
+
+.darcolor img{
+	width: 60%;
+}
+
+
+.darcolor p{
+	text-align: justify;
+	padding: 10px;
+}
+
+
+
+button{
+
+    width: 250px;
+    height: 60px;
+    padding: 15px;
+    margin: 0 auto;
+    background: #4682B4;
+    background: -moz-linear-gradient(top, #87CEEB 0%, #4682B4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+ 	margin-top: 10px;
+    box-shadow: inset 0px 0px 6px #fff;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+    border: 1px solid #62C2F9;
+    border-radius: 10px;
+
+}
+
+button a{
+	
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #212121;
+    text-shadow: 0px 1px 2px #62C2F9;
+    font-family: cursive;
+
+
+}
+
+p{
+	text-align: justify;
+	font-family: 'Trebuchet MS';
+	padding: 2%;
+}
+
